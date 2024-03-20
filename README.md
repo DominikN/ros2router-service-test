@@ -19,6 +19,6 @@ CHATTER_ROLE=talker ADD_TWO_INTS_ROLE=server docker compose up
 2. Terminal 2:
 
 ```
-CHATTER_ROLE=listener ADD_TWO_INTS_ROLE=client docker compose up
+CHATTER_ROLE=listener ADD_TWO_INTS_ROLE=client RMW_IMPLEMENTATION=rmw_cyclonedds_cpp docker compose up
 ```
 
